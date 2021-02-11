@@ -1,6 +1,9 @@
 import Sidebar from './components/Sidebar'
 import Topbar from './components/Topbar'
 import Status from './components/Status';
+import Last from './components/Last';
+import Category from './components/Category';
+import Footer from './components/Footer';
 
 import './style.css';
 import React from 'react'
@@ -20,11 +23,14 @@ function App() {
             </div>
             <Status />
 
+            <div class="row">
+              <Last />
+              <Category />
+            </div>
           </div>
         </div>
+        <Footer />
       </div>
-
-
     </div>
   );
 }
