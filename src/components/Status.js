@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 function Status(props) {
     return (
@@ -20,4 +21,19 @@ function Status(props) {
             </div>
     ));
   }
+
+Status.defaultProps = {
+    titulo: "Faltan las PROPS!!",
+    cifra:  "Faltan las PROPS!!",
+    color:  "Faltan las PROPS!!",
+    icono:  "Faltan las PROPS!!"
+}
+
+Status.propTypes = {
+    titulo: PropTypes.string.isRequired,
+    cifra: PropTypes.string.isRequired,
+    color: PropTypes.oneOf(['primary', 'success', 'warning']).isRequired,
+    icono: PropTypes.oneOf(['fa-clipboard-list', 'fas fa-dollar-sign', 'fas fa-user-check']).isRequired
+}
+
 export default Status;
