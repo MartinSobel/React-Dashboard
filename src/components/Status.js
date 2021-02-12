@@ -20,7 +20,7 @@ function Status(props) {
                 </div>
             </div>
     ));
-  }
+}
 
 Status.defaultProps = {
     titulo: "Faltan las PROPS!!",

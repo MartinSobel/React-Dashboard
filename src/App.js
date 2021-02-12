@@ -1,8 +1,9 @@
-import Sidebar from './components/Sidebar'
-import Topbar from './components/Topbar'
+import Sidebar from './components/Sidebar';
+import Topbar from './components/Topbar';
 import Status from './components/Status';
 import Last from './components/Last';
 import Category from './components/Category';
+import Product from './components/Product';
 import Footer from './components/Footer';
 
 import './style.css';
@@ -46,6 +47,9 @@ function App() {
             <div class="row">
               <Last />
               <Category />
+              
+              <h1 class="h3 mb-2 text-gray-800">All the products in the Database</h1>
+              <Product />
             </div>
           </div>
         </div>
