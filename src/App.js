@@ -24,6 +24,7 @@ function App() {
               <h1 class="h3 mb-0 text-gray-800">App Dashboard</h1>
             </div>
             <div class="row">
+            
             <Status
               data={[{
                 'titulo':'Products in Data Base',
@@ -48,8 +49,8 @@ function App() {
               <Last />
               <Category />
               
-              <h1 class="h3 mb-2 text-gray-800">All the products in the Database</h1>
-              <Product />
+              {/* <h1 class="h3 mb-2 text-gray-800">All the products in the Database</h1>
+              <Product /> */}
             </div>
           </div>
         </div>
