@@ -47,7 +47,19 @@ function App() {
             </div>
             <div class="row">
               <Last />
-              <Category />
+
+              <div class="col-lg-6 mb-4">						
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Categories in Data Base</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="row"></div>
+                        <Category />
+                        </div>
+                    </div>
+                </div>
+        
               
               {/* <h1 class="h3 mb-2 text-gray-800">All the products in the Database</h1>
               <Product /> */}
