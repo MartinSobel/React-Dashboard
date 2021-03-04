@@ -37,10 +37,10 @@ class Category extends Component {
     }
     
 
-    componentDidUpdate(){
-        console.log('me actualice')
-        this.apiCall('http://127.0.0.1:3000/api/data/categories', this.updateData)
-    }
+    // componentDidUpdate(){
+    //     console.log('me actualice')
+    //     this.apiCall('http://127.0.0.1:3000/api/data/categories', this.updateData)
+    // }
     
     render(){
         return (

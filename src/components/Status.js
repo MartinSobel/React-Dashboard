@@ -71,10 +71,10 @@ class Status extends Component {
         this.apiCall('http://127.0.0.1:3000/api/data/status', this.updateData)
     }
 
-    componentDidUpdate(){
-        console.log('me actualice')
-        this.apiCall('http://127.0.0.1:3000/api/data/status', this.updateData)
-    }
+    // componentDidUpdate(){
+    //     console.log('me actualice')
+    //     this.apiCall('http://127.0.0.1:3000/api/data/status', this.updateData)
+    // }
 
     render() {
         return(
