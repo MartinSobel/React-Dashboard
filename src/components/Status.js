@@ -51,7 +51,7 @@ class Status extends Component {
                         'icono':'fa-clipboard-list'
                     },
                     {
-                        'titulo':'Carts quantity',
+                        'titulo':'Closed carts',
                         'cifra': data.data.totalCarts,
                         'color':'success',
                         'icono':'fa-dollar-sign'
